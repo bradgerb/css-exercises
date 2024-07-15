@@ -22,6 +22,7 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   padding: 24px;
   display: flex;
+  gap: 24px;
 }
 
 .icon {
@@ -77,3 +78,8 @@ button.cancel {
   font-size: large;
 }
 
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
