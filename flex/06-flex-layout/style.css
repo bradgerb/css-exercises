@@ -44,8 +44,14 @@ a {
   justify-content: space-between;
 }
 
+.footer {
+  background-color: #eeeeee;
+}
+
 .left-links, .right-links {
   display: flex;
+  padding: 10px;
+  gap: 10px;
 }
 
 .content {
