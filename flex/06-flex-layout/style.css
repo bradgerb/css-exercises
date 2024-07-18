@@ -58,10 +58,18 @@ a {
   display: flex;
   flex-direction: column;
   align-self: center;
+  gap: 10px;
 }
 
 .buttons {
   display: flex;
   gap: 10px;
   justify-content: center;
+}
+
+.input {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-self: center;
 }
