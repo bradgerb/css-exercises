@@ -46,6 +46,7 @@ body {
 
 .content {
   display: flex;
+  flex-grow: 1;
 }
 
 ul {
@@ -60,6 +61,5 @@ a {
 .cards {
   display: flex;
   flex-wrap: wrap;
-  /* flex-grow: 1; */
   gap: 10px;
 }
